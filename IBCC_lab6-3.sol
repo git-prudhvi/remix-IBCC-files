@@ -1,4 +1,4 @@
-[Forwarded from PRUDHVI 190330039]
+
 pragma solidity ^0.4.24;
 contract Test
 {
