@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "get_choice",
+				"outputs": [
+					{
+						"internalType": "enum Types.week_days",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getdefaultvalue",
+				"outputs": [
+					{
+						"internalType": "enum Types.week_days",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "set_value",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IBCC_lab6-post2.sol": "Types"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IBCC_lab6-post2.sol": {
+			"keccak256": "0xcae0eadd0772561808f1914d7a9647d6b5535de866884350f11d5ca8bc0c5ad9",
+			"urls": [
+				"bzz-raw://7cecef2c93e10238e0a2e8ff1cdb3c39677b3e3e2d271940088d4e21c95ba6d0",
+				"dweb:/ipfs/Qmey5FZGMJXBbVMJioifBAc3EhrfkdZpCCYyfZp9qEnSaC"
+			]
+		}
+	},
+	"version": 1
+}

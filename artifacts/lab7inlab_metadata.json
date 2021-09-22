@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "tempMoney",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "tempMoney",
+						"type": "uint256"
+					}
+				],
+				"name": "depositMoney",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "checkMoney",
+				"outputs": [
+					{
+						"name": "tempMoney",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IBCC_lab7-1.sol": "lab7inlab"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IBCC_lab7-1.sol": {
+			"keccak256": "0x7fdc739b81ebc93cc43616bb7494ecfbf77e9d8c5a0da5cfb62c5d382577b977",
+			"urls": [
+				"bzzr://a14a36916ffc672e3cd3f2ea9ea6a6f92c5e136a4e37ddde7c5e7af30ef9b7ca"
+			]
+		}
+	},
+	"version": 1
+}

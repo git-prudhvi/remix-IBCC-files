@@ -30,5 +30,3 @@ contract Types {
     return default_value;
   }
 }
-
-LAB6POST2
